@@ -1,0 +1,13 @@
+image_name: G_masked_garden
+content: G_original_edit.jpg
+styles[0]: 1.0 * garden.png
+style_masks[0]: G_mask_edit.jpg
+init_type: content
+content_weight: 5.0
+style_weight: 10000.0
+tv_weight: 0.001
+content_layers: ['conv4_2']
+style_layers: ['relu1_1', 'relu2_1', 'relu3_1', 'relu4_1', 'relu5_1']
+optimizer_type: lbfgs
+max_iterations: 1000
+max_image_size: 1000
