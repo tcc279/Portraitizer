@@ -20,10 +20,24 @@ After downloading, copy the weights file `imagenet-vgg-verydeep-19.mat` to the p
 5) Outputs can then be found inthe image_output folder 
 
 Instructions on how to use the two Jupyter Notebooks can be found within the notebooks themselves
+
+## Results
+
+Here is one example:
+
+<p align="center">
+<img src="image_input/Screenshot from 2019-03-25 14-53-36.png" width="192">
+<img src="styles/late_mornings.jpg" width="192"/>
+<img src="image_output/jone_example_masked.png" width="192"/>
+
+</p>
+
+More results can be found [here](https://github.com/tcc279/Portraitizer/tree/master/image_output)
+
 Also contained in this repository:
 
-- [Presentation of the Portraitizer as a PDF](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer.pdf)
-- [Presentation Script](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer%20Script)
+- [Presentation of the Portraitizer as a PDF](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer%20Presentation/Portraitizer.pdf)
+- [Presentation Script](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer%20Presentation/Portraitizer%20Script)
 
 ## Credits
 
