@@ -20,9 +20,13 @@ After downloading, copy the weights file `imagenet-vgg-verydeep-19.mat` to the p
 5) Outputs can then be found inthe image_output folder 
 
 Instructions on how to use the two Jupyter Notebooks can be found within the notebooks themselves
+Also contained in this repository:
+
+- [Presentation of the Portraitizer as a PDF](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer.pdf)
+- [Presentation Script](https://github.com/tcc279/Portraitizer/blob/master/Portraitizer%20Script)
 
 ## Credits
 
 DeepLab documentation can be found [here](https://github.com/tensorflow/models/tree/master/research/deeplab)
 
-Neural style transfer was using cysmith's implemenation which can be found [here](https://github.com/cysmith/neural-style-tf)
+Neural style transfer uses cysmith's implemenation which can be found [here](https://github.com/cysmith/neural-style-tf)
