@@ -1,0 +1,133 @@
+Portraitizer
+
+Slide 1 /////////////////////////////////////////////////// 
+
+Hi my name is Jone, & today I am here to present: The Portraitizer
+
+My academic & job experience primarily lies in Finance, Economics, and Mathematics
+
+In addition, I am a part time illustrator with a passion for visual arts
+
+So! For my final project, I wanted to combine these 2 contrasting skillsets and thus the Portraitzer was born.
+
+The Portraitizer is a Machine Learning model 
+
+that creates machine generated portraits in a hand drawn style using portraits, my own original art, and neural style transfer
+
+Slide 2 /////////////////////////////////////////////////// 
+
+I was partly inspired by this piece of art: Portrait of Edmond Belamy, created by the Paris based collective, Obvious
+
+Slide 3 /////////////////////////////////////////////////// 
+
+They used generative adversarial networks with the following mathematical function to create this portrait
+
+Slide 4 ///////////////////////////////////////////////////
+
+This piece actually sold for over $400 thousand dollars, 
+
+signalling the arrival of AI art on the world auction stage
+
+Slide 5 ///////////////////////////////////////////////////
+
+So, how does the Portraitzer work?
+
+Slide 6 ///////////////////////////////////////////////////
+
+First, you start with a portrait image
+
+Slide 7 ///////////////////////////////////////////////////
+
+Next, using DeepLab, create a binary mask to focus the neural style transfer on the person only
+As you can see, DeepLab detects other objects in the photo, such as the screen in the background
+
+Slide 8 ///////////////////////////////////////////////////
+
+So, the binary mask needs to be editted to remove the other masks, leaving only the mask of the person
+
+Slide 9 ///////////////////////////////////////////////////
+
+Then, using the binary mask, remove the background
+
+Slide 10 ///////////////////////////////////////////////////
+
+Finally, combine the portrait image, binary mask, and the style image
+
+Slide 11 ///////////////////////////////////////////////////
+
+To get the following result!
+
+Slide 12 ///////////////////////////////////////////////////
+
+When I first started, I ran the neural transfer without the mask
+The results were not as good and stylized, thus a way to focus the neural style transfer was needed
+
+Slide 13 ///////////////////////////////////////////////////
+
+To do so, I created binary masks with DeepLab
+DeepLab is a model that detects objects in a photo, such as cats, dogs, people, etc.
+It uses convolutional neural nets trained on large amounts of images
+
+Slide 14 ///////////////////////////////////////////////////
+
+Then I used a neural style transfer, which also uses convolutional neural nets
+IT finds correlations between the style and content image at each layer
+It minimizes a loss function that takes into account how close the content and style of the new image is with the two input images 
+
+Slide 15 ///////////////////////////////////////////////////
+
+I then ran the model on my friends and family
+I noticed that to get the same results by hand, it would taken me many hours, 
+and with the model it only took me 5 minutes per portrait
+
+Slide 16 ///////////////////////////////////////////////////
+
+This is a picture of an family friend
+
+Slide 17 ///////////////////////////////////////////////////
+
+This guy is my roommate
+
+Slide 18 ///////////////////////////////////////////////////
+
+Im really into scifi, and I want to make a graphic novel someday
+these are character designs that would be in that world
+
+Slide 19 ///////////////////////////////////////////////////
+
+This is an old college friend, who is actually a data scientist as well
+
+Slide 20 ///////////////////////////////////////////////////
+
+I actually gifted this drawing to my friend here
+who requested me to make this transfer with this drawing
+so that she could hang the picture up with the original side by side
+
+Slide 21 ///////////////////////////////////////////////////
+
+As you can see here, DeepLab only detected the person and left the phone out
+
+Slide 22 ///////////////////////////////////////////////////
+
+Simailairly, DeepLab included only the person in this image as well
+
+Slide 23 ///////////////////////////////////////////////////
+
+The model also works for multiple people in one image, as demonstrated in this family portrait
+
+Slide 24 ///////////////////////////////////////////////////
+
+Lastly, I ran the model on the enitre Metis class
+You may recognize some of these faces
+
+Slide 25 ///////////////////////////////////////////////////
+
+To close, Id like to end with this quote from Obvious
+
+Slide 26 ///////////////////////////////////////////////////
+
+My name is Jone and Thank for your time
+
+
+
+
